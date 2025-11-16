@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CityZero — Zero-Waste Urban System</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        background: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1950&q=80");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        overflow-x: hidden;
+    }
+
+    .overlay {
+        width: 100%;
+        height: 100vh;
+        background: rgba(0,0,0,0.55);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 65px;
+        color: white;
+        font-weight: 900;
+        text-shadow: 0px 4px 15px rgba(0,0,0,0.6);
+        animation: fadeDown 1s ease;
+    }
+
+    @keyframes fadeDown {
+        from { opacity: 0; transform: translateY(-20px); }
+        to   { opacity: 1; transform: translateY(0); }
+    }
+
+    p {
+        font-size: 22px;
+        margin-top: -10px;
+        max-width: 700px;
+        color: #e8f5e9;
+        text-shadow: 0px 2px 10px rgba(0,0,0,0.8);
+        animation: fadeUp 1.4s ease;
+    }
+
+    @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .btn {
+        margin-top: 40px;
+        padding: 18px 40px;
+        font-size: 20px;
+        border: none;
+        border-radius: 12px;
+        background: #2d6a4f;
+        color: white;
+        cursor: pointer;
+        font-weight: 700;
+        box-shadow: 0 5px 18px rgba(0,0,0,0.4);
+        transition: 0.3s;
+        animation: fadeUp 1.5s ease;
+    }
+
+    .btn:hover {
+        background: #3d8f65;
+        transform: scale(1.05);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+    }
+
+    .tagline {
+        margin-top: 40px;
+        color: #c7f9cc;
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-shadow: 0px 2px 10px rgba(0,0,0,0.8);
+        animation: fadeUp 1.7s ease;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="overlay">
+    <h1>CITYZERO</h1>
+    <p>A Smart & Sustainable Zero-Waste Urban Management System  
+       empowering citizens to create cleaner, greener, technology-driven cities.</p>
+    <button class="btn" onclick="location.href='dis.html'">
+        Disadvantages of Throwing Waste in Public
+    </button>
+    <button class="btn" onclick="location.href='dashboard.html'">
+        Enter Zero-Waste Dashboard →
+    </button>
+
+    <div class="tagline">CODE • CREATE • CONQUER</div>
+</div>
+
+</body>
+</html>
