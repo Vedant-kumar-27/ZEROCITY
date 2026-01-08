@@ -52,3 +52,27 @@ The platform transforms individual inputs into **actionable urban intelligence**
 
 ## 📂 Project Structure
 
+
+---
+
+## 🎯 Target Audience
+
+- Local citizens and community volunteers  
+- Municipal authorities and urban planners  
+- Environmental NGOs  
+- Smart-city and sustainability programs  
+
+---
+
+## 🔮 Future Scope
+
+- User authentication and data persistence  
+- Database integration  
+- AI-based waste trend prediction  
+- GIS and smart-city system integration  
+
+---
+
+## 🌍 Vision
+
+To convert citizen-reported waste data into **actionable intelligence for cleaner, smarter, and more sustainable cities**.
